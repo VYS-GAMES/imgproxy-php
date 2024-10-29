@@ -8,9 +8,9 @@ use InvalidArgumentException;
 
 final class Width extends AbstractOption
 {
-    private int $width;
+    private float $width;
 
-    public function __construct(int $width)
+    public function __construct(float $width)
     {
         if ($width < 0) {
             throw new InvalidArgumentException(sprintf('Invalid width: %s', $width));

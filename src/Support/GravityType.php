@@ -19,7 +19,8 @@ class GravityType
         SOUTH_WEST = 'sowe',
         CENTER = 'ce',
         SMART = 'sm',
-        FOCUS_POINT = 'fp'
+        FOCUS_POINT = 'fp',
+        OBJ_FACE = 'obj:face'
     ;
 
     public const TYPES = [
@@ -34,6 +35,7 @@ class GravityType
         self::CENTER,
         self::SMART,
         self::FOCUS_POINT,
+        self::OBJ_FACE
     ];
 
     private string $type;

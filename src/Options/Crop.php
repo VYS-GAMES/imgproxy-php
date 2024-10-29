@@ -10,7 +10,7 @@ final class Crop extends AbstractOption
     private Height $height;
     private ?Gravity $gravity = null;
 
-    public function __construct(int $width, int $height, Gravity|string|null $gravity = null)
+    public function __construct(float $width, float $height, Gravity|string|null $gravity = null)
     {
         $this->width = new Width($width);
         $this->height = new Height($height);
