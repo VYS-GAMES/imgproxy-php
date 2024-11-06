@@ -20,7 +20,7 @@ class GravityType
         CENTER = 'ce',
         SMART = 'sm',
         FOCUS_POINT = 'fp',
-        OBJ_FACE = 'obj:face'
+        OBJ_FACE = 'obj:face_male:face_female'
     ;
 
     public const TYPES = [
